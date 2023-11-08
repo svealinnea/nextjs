@@ -47,6 +47,7 @@ export default function Home() {
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
+          href="/question1"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
             Question 1 Answer{' '}
@@ -55,12 +56,9 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
+            Answers the first question in the interview process.
           </p>
         </a>
-        <button type="button" onClick={() => router.push('/question1')}>
-      Question 1
-    </button>
 
         <a
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
