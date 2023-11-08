@@ -3,9 +3,9 @@ export default function Page() {
     <div className="container mx-auto py-12">
       <h1 className="text-2xl font-semibold mb-4">
         Imagine that the customer from Question4 responds with the following
-        email. “Im so frustrated. Ive been trying to make this work for hours
+        email. Im so frustrated. Ive been trying to make this work for hours
         and I just cant figure it out. It must be a platform issue so why don't
-        you just fix it for me instead of asking me questions.” Write a reply to
+        you just fix it for me instead of asking me questions. Write a reply to
         the customer addressing the concerns raised.
       </h1>
       <p className="text-sm opacity-50">
